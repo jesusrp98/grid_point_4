@@ -1,6 +1,14 @@
 import 'package:gap/gap.dart';
 
+/// Class that contains static members that implement the `4-point grid system`
+/// for Flutter.
 ///
+/// For more details take a look a [this link](https://webflow.com/blog/why-were-using-a-4-point-grid-in-webflow).
+///
+/// - `s*`: Absolute double values than can be used for `EdgeInsetsGeometry` and
+/// other spacing elements.
+/// - `gap*`: Using the `gap` package, creates a widget that takes a
+/// fixed amount of space in the direction of its parent.
 class Spacing {
   const Spacing._();
 
