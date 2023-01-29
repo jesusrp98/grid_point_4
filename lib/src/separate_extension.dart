@@ -1,5 +1,4 @@
 import 'package:flutter/widgets.dart';
-import 'package:gap/gap.dart';
 
 extension SeparateExtension on List<Widget> {
   /// Separate elements of a widget list with a [separator] widget.
@@ -13,7 +12,4 @@ extension SeparateExtension on List<Widget> {
           [first],
           (r, element) => [...r, separator, element],
         );
-
-  /// Separate elements of a widget list with a `Gap` widget.
-  List<Widget> separate(double dimension) => separateWith(Gap(dimension));
 }

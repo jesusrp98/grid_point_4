@@ -42,7 +42,7 @@ class App extends StatelessWidget {
             _SizedColoredBox(GridSpacing.s88),
             _SizedColoredBox(GridSpacing.s92),
             _SizedColoredBox(GridSpacing.s96),
-          ].separate(GridSpacing.s16),
+          ].separateWith(GridSpacing.gap16),
         ),
       ),
     );
